@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Page not found | IWLTechnology Home</title>
+    <style>
+      h1{ 
+        font-size: 150pt;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+      } 
+      p{
+        color: red;
+        text-align: center;
+      }
+      body{
+        background-color: black; 
+      }
+    </style>
+  </head>
+  <body onload="typeWriter();">
+    <script>
+      var i = 0;
+      var txt =">  Sorry! The page you requested can not be found. Click here to return home."
+      var speed = 50;
+
+      function typeWriter(){
+        if (i < txt.length) {
+          document.getElementById("error").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+      function home() {
+        window.location.assign("/");
+      }
+    </script>
+    <br/><h1 class="lobster2text">404</h1><br /><p id="error" onclick="home()"></p>
+  </body>
+</html>
