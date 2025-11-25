@@ -1,0 +1,98 @@
+#mainMenu {
+    width: calc(var(--vw-replace) * 100);
+    height: calc(var(--vh-replace) * 100);
+}
+button,
+button b {
+    font-size: calc(var(--vh-replace) * 2.862254) !important;
+}
+h1,
+h2 {
+    margin-top: calc(var(--vh-replace) * 1.7879492);
+    margin-bottom: calc(var(--vh-replace) * 1.7879492);
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: Silkscreen;
+}
+table {
+    text-align: left;
+}
+body {
+    background-color: #000;
+}
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("./PressStart2P-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: Silkscreen;
+    src: url("./Silkscreen-Regular.ttf") format("truetype");
+}
+:root {
+    --vh-replace: 1vh;
+    --vw-replace: 1vw;
+}
+body {
+    color: #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.menuSelectTable {
+    margin: var(--vh-replace) var(--vh-replace) var(--vh-replace) var(--vh-replace) !important;
+}
+.menuSelectTable td {
+    height: fit-content;
+    width: fit-content;
+}
+.menuSelectLocation {
+    width: calc(var(--vh-replace) * 10) !important;
+    height: calc(var(--vh-replace) * 10) !important;
+    padding-right: calc(var(--vh-replace) * 2);
+}
+.menuSelect {
+    padding: calc(var(--vh-replace) * 0.5) calc(var(--vh-replace) * 0.5) calc(var(--vh-replace) * 0.5)
+        calc(var(--vh-replace) * 0.5);
+    width: calc(var(--vh-replace) * 56);
+    margin: 0 auto;
+}
+button {
+    width: calc(var(--vh-replace) * 55) !important;
+    text-wrap: pretty !important;
+    min-height: calc(var(--vh-replace) * 4.469873056) !important;
+    padding-top: calc(var(--vh-replace) * 0.954) !important;
+    padding-bottom: calc(var(--vh-replace) * 0.954) !important;
+    padding-left: calc(var(--vw-replace) * 0.83333) !important;
+    padding-right: calc(var(--vw-replace) * 0.83333) !important;
+}
+h1 {
+    font-size: calc(var(--vw-replace) * 2.8125);
+}
+h2 {
+    font-size: calc(var(--vh-replace) * 2.86) !important;
+}
+table {
+    height: 100%;
+    width: 100% !important;
+    border-width: 0;
+    border-collapse: collapse !important;
+}
+.font1 {
+    font-family: "Press Start 2P" !important;
+}
+.font2 {
+    font-family: Silkscreen !important;
+}
+.bg {
+    background-image: url("./menuloop.gif") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}

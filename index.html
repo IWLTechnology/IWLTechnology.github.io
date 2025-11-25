@@ -1,24 +1,49 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    <title>IWLTechnology Home</title>
-    <style>
-      
-    </style>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="w3.css" />
+    <link rel="stylesheet" type="text/css" href="game.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="robots" content="notranslate" />
+    <meta name="description" content="The home of IWLTechnology's projects, including Squadron." />
+    <meta name="og:description" content="The home of IWLTechnology's projects, including Squadron." />
+    <meta property="og:title" content="IWLTechnology Home" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="theme-color" content="#000000" />
+    <title>IWLTechnology - The home of Squadron</title>
+    <style></style>
   </head>
-  <body class="w3-white w3-center">
-    <h1>Welcome to the home of IWLTechnology's projects!</h1>
-    <hr>
-    <p>The current live websites are:</p>
-    <ul class="w3-ul w3-border">
-      <li><a href="./Squadron">Squadron</a></li>
-      <li><a href="./ytplayer">Youtube Player</a></li>
-      <li><a href="./courthierarchy">Court Hierarchy</a></li>
-      <li><a href="./medievaltimes">Medieval Times</a></li>
-      <li><a href="./myeasteregg">My Easter Egg</a></li>
-      <li><a href="./respiratorysystempresentation">Respiratory System Presentation</a></li>
-      <li><a href="./theawesomegame">The Awesome Game</a></li>
-    </ul>
+  <body class="w3-center">
+    <div id="mainMenu" class="w3-black bg">
+      <br />
+      <h1>Welcome to IWLTechnology, the home of Squadron.</h1>
+      <br />
+      <h2>The current live projects are:</h2>
+      <div class="menuSelect">
+        <table class="menuSelectTable">
+          <tr>
+            <td class="menuSelectOption">
+              <button
+                onclick="window.location.assign('./Squadron')"
+                id="menu1Button0"
+                class="w3-center w3-btn w3-white w3-round w3-border-white w3-ripple">
+                <b>Squadron</b>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="menuSelectOption">
+              <button
+                onclick="window.location.assign('./ytplayer')"
+                id="menu1Button1"
+                class="w3-center w3-btn w3-white w3-round w3-border-white w3-ripple">
+                <b>Youtube Player</b>
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </body>
 </html>

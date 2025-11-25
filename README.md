@@ -1,2 +1,3 @@
 # IWLTechnology.github.io
-Homepage for the website found at https://iwltechnology.github.io/
+Homepage for my projects.
+The website can be found at https://iwltechnology.github.io/
