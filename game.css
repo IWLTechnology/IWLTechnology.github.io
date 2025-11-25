@@ -2,8 +2,8 @@
     width: calc(var(--vw-replace) * 100);
     height: calc(var(--vh-replace) * 100);
 }
-button,
-button b {
+a,
+a b {
     font-size: calc(var(--vh-replace) * 2.862254) !important;
 }
 h1,
@@ -64,7 +64,7 @@ body {
     width: calc(var(--vh-replace) * 56);
     margin: 0 auto;
 }
-button {
+a {
     width: calc(var(--vh-replace) * 55) !important;
     text-wrap: pretty !important;
     min-height: calc(var(--vh-replace) * 4.469873056) !important;
